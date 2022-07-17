@@ -8,15 +8,19 @@
     </a>
 </h3>
 
+<br/>
+<br/>
+
 ![](Demo/large-screen.png)
 <br/>
-![](Demo/medium-screen.png)
 <br/>
-![](Demo/medium-screen-nav.png)
-<br/>
+
 ![](Demo/small-screen.png)
 <br/>
+<br/>
+
 ![](Demo/small-screen-nav.png)
+<br/>
 <br/>
 
 ### Built With
