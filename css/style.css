@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: #181719;
+  width: 100vw;
+  height: 100vh;
+  scrollbar-width: none;
+}
+
+.container {
+  margin: 0 90px;
+}
+
+/* styling nav bar  */
+
+.nav-bar {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+/* 1st child  */
+
+.btn {
+  border: 1px solid #ffffff;
+  background-color: #181719;
+  font-family: "Crimson Pro";
+  color: #ffffff;
+  height: 35px;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* 2nd child */
+
+ul {
+  font-family: "Montserrat Alternates", sans-serif;
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+ul li {
+  list-style-type: none;
+  padding: 18px;
+}
+
+ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 8px;
+  font-size: 16px;
+}
+
+ul li a::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all 0.4s linear;
+}
+
+ul li a:hover::after {
+  width: 100%;
+}
+
+.active::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all 0.4s linear;
+}
+
+/* styling content */
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+/* 1st child */
+
+.text {
+  width: 30%;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text h1 {
+  font-family: "Lora", serif;
+  font-weight: 600;
+  font-size: 3em;
+  padding: 20px 0;
+}
+
+.text p {
+  font-family: "Montserrat Alternates", sans-serif;
+  margin-top: 20px;
+  font-weight: 200;
+
+  font-size: 1.5em;
+}
+
+.text a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 40px 0;
+  display: inline-block;
+}
+
+/* 2nd child */
+
+.photo {
+  width: 60%;
+  height: 100%;
+  position: relative;
+}
+
+.ph-1 {
+  object-fit: cover;
+  width: 100%;
+  height: 586.53px;
+}
+
+.card {
+  position: absolute;
+  width: 50%;
+  height: 180px;
+  right: 60px;
+  bottom: -100px;
+  background: #181719;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.profile {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.card img {
+  width: 50px;
+  border-radius: 50%;
+  margin: 20px;
+  object-fit: cover;
+}
+
+.n2 {
+  margin: 30px 0;
+}
+
+.name {
+  color: #ffffff;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.title {
+  color: #828282;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.card h3 {
+  color: #ffffff;
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31px;
+  width: 90%;
+  margin: -20px 20px 20px 20px;
+  padding: 10px;
+}
+
+/* humburger menu */
+.icon {
+  color: #ffffff;
+  width: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+/* styling for all screensize  */
+
+@media screen and (max-width: 1600px) {
+  .container {
+    margin: 0 50px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .main {
+    flex-direction: column;
+  }
+  .text {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .photo {
+    width: 100%;
+    margin-bottom: 200px;
+  }
+}
+
+@media screen and (max-width: 687px) {
+  .card {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .container {
+    margin: 0 20px;
+  }
+}
+
+/* nav responsive with humburger */
+
+@media screen and (max-width: 866px) {
+  ul {
+    display: none;
+  }
+
+  ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #181719;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+  }
+
+  .icon {
+    display: block;
+    z-index: 3;
+    /* position: fixed; */
+    right: 50px;
+  }
+
+  ul.active {
+    display: flex;
+  }
+
+  .icon.active {
+    position: fixed;
+  }
+}
