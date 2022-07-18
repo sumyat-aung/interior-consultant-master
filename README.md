@@ -3,8 +3,8 @@
 ## Overview
 
 <h3>
-    <a href="https://interior-consultant-website-by-sumyataung.netlify.app/">
- Demo / Website URL - https://interior-consultant-website-by-sumyataung.netlify.app/
+    <a href="https://interiorconsultant-by-sumyat.netlify.app/">
+ Demo / Website URL - https://interiorconsultant-by-sumyat.netlify.app/
     </a>
 </h3>
 
