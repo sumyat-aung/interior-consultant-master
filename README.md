@@ -3,9 +3,10 @@
 ## Overview
 
 <h3>
-    <a href="https://interiorconsultant-by-sumyat.netlify.app/">
- Demo / Website URL - https://interiorconsultant-by-sumyat.netlify.app/
-    </a>
+Demo / Website URL    
+  <a href="https://interiorconsultant-by-sumyat.netlify.app/">
+       https://interiorconsultant-by-sumyat.netlify.app/
+  </a>
 </h3>
 
 <br/>
@@ -15,24 +16,23 @@
 <br/>
 <br/>
 
-![](Demo/small-screen.png)
-<br/>
-<br/>
+<p align="center">
+<img src="Demo/small-screen.png" width="300">
+<img src="Demo/small-screen-nav.png" width="300" height="830px">
+</p>
 
-![](Demo/small-screen-nav.png)
 <br/>
 <br/>
 
 ### Built With
 
-- I built this **responsive website** using <br/>
-  **HTML**, <br/>
-  **Pure CSS** and <br/>
-  **Vanilla Javascript** <br/>
+- **HTML**
+- **CSS**
+- **Javascript**
+
+<br/>
 
 ## Features
 
 - **responsive and look great on all devices**
-- **Fonts** are clean and readable
-- **Color Simple and classic**
-- **Underline Hover effect**
+
