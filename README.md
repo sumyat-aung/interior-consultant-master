@@ -18,7 +18,7 @@ Demo / Website URL
 
 <p align="center">
 <img src="Demo/small-screen.png" width="300">
-<img src="Demo/small-screen-nav.png" width="300" height="830px">
+<img src="Demo/small-screen-nav.png" width="300" >
 </p>
 
 <br/>
