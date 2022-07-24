@@ -18,7 +18,7 @@ Demo / Website URL
 
 <p align="center">
 <img src="Demo/small-screen.png" width="300">
-<img src="Demo/small-screen-nav.png" width="300" >
+<img src="Demo/small-screen-nav.png" width="300" height="830">
 </p>
 
 <br/>
@@ -34,5 +34,5 @@ Demo / Website URL
 
 ## Features
 
-- **responsive and look great on all devices**
-
+- **responsive and look great on all devices !**
+- **Static Website !**
