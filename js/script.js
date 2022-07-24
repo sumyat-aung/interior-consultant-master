@@ -1,3 +1,4 @@
+// grabing icons and nav 
 const icon = document.getElementsByClassName("icon")[0];
 const nav = document.getElementsByTagName("ul")[0];
 
